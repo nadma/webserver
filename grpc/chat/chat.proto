@@ -1,6 +1,7 @@
 syntax= "proto3";
 package chat;
-option go_package = "github.com/example/path/gen;gen";
+//option go_package = "github.com/example/path/gen;gen";
+option go_package = "./;gen";
 
 //message format that we are expectiong from clients
 message Message{

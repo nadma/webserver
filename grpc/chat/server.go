@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/tutorialedge/go-grpc-beginners-tutorial/chat"
+	"github.com/tutorialedge/go-grpc-tutorial/chat"
 	"google.golang.org/grpc"
 )
 
@@ -28,9 +28,9 @@ func main() {
 		log.Fatalf("failed to serve: %s", err)
 	}
 }
-	// go mod init github.com/tutorialedge/go-grpc-tutorial
-	//in this directory
-	//and improt github.com/tutorialedge/go-grpc-tutorial/chat
-	//then line 21 add
-	//then line 25 add
-}
+
+// go mod init github.com/tutorialedge/go-grpc-tutorial
+//in this directory
+//and improt github.com/tutorialedge/go-grpc-tutorial/chat
+//then line 21 add
+//then line 25 add
